@@ -1,0 +1,11 @@
+
+
+============================== 2022-05-24 20:07:35.951112 | 718b2596-e83e-4afd-bc6a-202b839ac998 ==============================
+20:07:35.951127 [info ] [MainThread]: Running with dbt=1.1.0
+20:07:35.951711 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/anilboora/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+20:07:35.951983 [debug] [MainThread]: Tracking: tracking
+20:07:35.964347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d81d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d819a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d81a30>]}
+20:07:35.966036 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/anilboora/.dbt
+20:07:35.966564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d819a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d81a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d81670>]}
